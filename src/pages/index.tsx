@@ -1,10 +1,9 @@
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
 import Image from 'next/image';
-import { FaLinkedin, FaInstagram, FaTiktok, FaApple, FaGooglePlay, FaClipboardCheck, FaUserCheck, FaBullseye, FaStar } from 'react-icons/fa';
+import { FaLinkedin, FaInstagram, FaTiktok, FaApple, FaGooglePlay } from 'react-icons/fa';
 import Logo from '../assets/images/Outfiy_Logo_V1_0-11.svg';
 import LogoHeader from '../assets/images/logoheader.svg';
-import NameIcon from '../assets/images/nameicon.png';
 import Feature1 from '../assets/images/1.png';
 import Feature2 from '../assets/images/2.png';
 import Feature3 from '../assets/images/3.png';
@@ -42,7 +41,7 @@ export default function Home() {
               Elevate Your Style with AI-Powered Fashion Magic
             </h1>
             <p className="text-gray-600 text-lg md:text-xl mb-8">
-              Say goodbye to the daily "what to wear" dilemma! Our AI-powered assistant creates personalized outfits, guides your shopping decisions, and saves your precious time. Welcome to the future of fashion, where style meets intelligence.
+              Say goodbye to the daily &quot;what to wear&quot; dilemma! Our AI-powered assistant creates personalized outfits, guides your shopping decisions, and saves your precious time. Welcome to the future of fashion, where style meets intelligence.
             </p>
             <div className="flex gap-4">
               <button className="bg-[#3D53E1] text-white px-6 md:px-8 py-3 rounded-xl font-medium hover:bg-[#2A3CB3] transition-colors flex flex-col items-center gap-2 w-full md:w-auto">
@@ -133,7 +132,7 @@ export default function Home() {
               <div className="bg-gray-50 p-4 md:p-6 rounded-3xl shadow-lg">
                 <h3 className="text-[#3DCB0C] text-xl md:text-2xl font-bold mb-2">Digitalization & Inspiration</h3>
                 <p className="text-gray-600 text-base md:text-lg">
-                  Get style inspiration on the "Podium" platform, have your preferences analyzed, and discover personalized product recommendations.
+                  Get style inspiration on the &quot;Podium&quot; platform, have your preferences analyzed, and discover personalized product recommendations.
                 </p>
               </div>
             </div>
